@@ -1,0 +1,68 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+
+<link href="wikiView.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+<div id="container">
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 text-center">
+      <div id="grSearch">
+      
+      <div id = "inSearch">
+        <!-- beginning of inner grid -->
+        <div class="row">
+           <div class="col-sm-11">
+            <input id = "inForm" class="form-control" type="search" placeholder="Search..." autocomplete="off" autofocus/>
+           </div><!-- inner column 1 -->
+           <div class="col-sm-1 text-left">
+            <button id="btnRemove" type="button" class=><span class="glyphicon glyphicon-remove-sign " aria-hidden="true"></span>
+              </button>
+             
+            </div><!-- inner column 2 -->
+           
+          </div> <!-- end of inner row -->
+        <p class="lead">Click<a href ="https://en.wikipedia.org/wiki/Special:Random" target="_blank"> <kbd>here</kbd></a> for Random Knowledge 
+          </p>  
+        </div><!-- input search-->
+      <div id="iconSearch">
+      <p class="lead">Click the icon to search, or</p>
+      <button id="btnSearch" type="button" ><i class="fa fa-4x fa-search" aria-hidden="true"></i>
+             </button>
+        <p class="lead">Click<a href ="https://en.wikipedia.org/wiki/Special:Random" target="_blank"> <kbd>here</kbd></a> for Random Knowledge 
+          </p>  
+      </div> 
+     
+      </div><!-- grSearch -->
+      </div><!-- column2 -->
+    <div class="col-sm-3"></div>
+  </div><!-- row -->
+</div><!--container-->
+
+<div class="container">
+  <div class="row">
+    <div class= "col-sm-1"></div>
+    <div class="col=small-10">
+      <div id = "userChosen" ></div>
+    </div>
+    <div class= "col-sm-1"></div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="wikiView.js"></script>
+<body>
+</html>
